@@ -23,7 +23,7 @@ function currentLine(katzDeliLine) {
       if(i === katzDeliLine.length-1) {
         
       } else {
-        
+        listInfo = listInfo + (i + 1) + ". " + katzDeliLine[i] + ", ";
       }
     }
     return `The line is currently: ${listInfo}`;

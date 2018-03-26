@@ -21,7 +21,7 @@ function currentLine(katzDeliLine) {
     var listInfo = "";
     for(var i=0; i < katzDeliLine.length; i++) {
       if(i === katzDeliLine.length-1) {
-        
+        listInfo = listInfo + (i + 1) + ". " + katzDeliLine[i]
       } else {
         listInfo = listInfo + (i + 1) + ". " + katzDeliLine[i] + ", ";
       }
